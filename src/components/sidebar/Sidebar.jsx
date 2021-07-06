@@ -44,12 +44,44 @@ export default function Sidebar() {
                     </li>
                     
                 </ul>
-                <button className="sideButton">Show More</button>
+                <button className="sidebarButton">Show More</button>
                 <hr className="sidebarHr" />
-                <ul className="sideBarFriendList">
-                    <li className="sideBarFriend">
-                        <img src="/public/asset/person/person10-unsplash.jpg" alt="friendpic" className="sideBarFriendImg" />
-                        <span className="sideBarFriendName">jane doe</span>
+                <ul className="sidebarFriendList">
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/asset/person/person2-unsplash.jpg" alt="pic"  />
+                        <span className="sidebarFriendName">jane doe</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/asset/person/person3-unsplash.jpg" alt="pic"  />
+                        <span className="sidebarFriendName">john doe</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/asset/person/person4-unsplash.jpg" alt="pic"  />
+                        <span className="sidebarFriendName">jane doe</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/asset/person/person5-unsplash.jpg" alt="pic"  />
+                        <span className="sidebarFriendName">jane doe</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/asset/person/person6-unsplash.jpg" alt="pic"  />
+                        <span className="sidebarFriendName">jane doe</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/asset/person/person6-unsplash.jpg" alt="pic"  />
+                        <span className="sidebarFriendName">jane doe</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/asset/person/person8-unsplash.jpg" alt="pic"  />
+                        <span className="sidebarFriendName">jane doe</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/asset/person/person9-unsplash.jpg" alt="pic"  />
+                        <span className="sidebarFriendName">jane doe</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/asset/person/person10-unsplash.jpg" alt="pic"  />
+                        <span className="sidebarFriendName">jane doe</span>
                     </li>
                 </ul>
             </div>
