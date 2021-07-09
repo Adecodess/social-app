@@ -30,18 +30,23 @@
 }
 
 .postUsername{
-    font-style: 15px;
+    font-size: 15px;
     font-weight: 500;
     margin: 0 10px;
+    text-transform: capitalize;
 }
 
 .postDate{
     font-size: 12px;
 } 
-
+ 
 .postCenter{
     margin: 20px 0;
 }
+
+/* .postText{
+    margin-bottom: 10px;
+} */
 
 .postImage{
     margin-top: 20px;
