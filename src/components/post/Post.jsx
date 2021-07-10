@@ -34,7 +34,7 @@ export default function Post({ post }) {
             <MoreVert />
           </div>
         </article>
-        <article className="PostCenter">
+        <article className="postCenter">
           <span className="postText">{post?.desc}</span>
           <img src={post.photo} alt="post" className="postImage" />
         </article>
