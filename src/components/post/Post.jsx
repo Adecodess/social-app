@@ -1,16 +1,31 @@
 import "./post.css";
 import { MoreVert } from "@material-ui/icons";
 import { Users } from "../../dummyData";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Post({ post }) {
   const [like, setLike] = useState(post.like);
   const [isLiked, setIsLiked] = useState(false);
+  const [posts, setPost] = useState(post);
 
   const likeHandler = () => {
     setLike(isLiked ? like - 1 : like + 1);
     setIsLiked(!isLiked);
   };
+
+  useEffect(() => {
+    const event = window.addEventListener("scroll", () => {
+      if (
+        window.innerHeight + window.scrollY >=
+        document.body.scrollHeight - 5
+      ) {
+        setPost((oldPost) => {
+          return oldPost + 1;
+        });
+      }
+    });
+    return () => window.removeEventListener("scroll", event);
+  }, []);
 
   return (
     <main className="post">

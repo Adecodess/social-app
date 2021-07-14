@@ -65,6 +65,7 @@
   height: 24px;
   margin-right: 5px;
   cursor: pointer;
+  color: #222;
 }
 
 .postLikeCounter {
